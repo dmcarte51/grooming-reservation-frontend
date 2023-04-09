@@ -11,7 +11,7 @@ ul {
 
 nav {
     display: flex;
-    background-color: rgb(145, 67, 218);
+    background-color: rgb(119, 17, 215);
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
@@ -21,10 +21,10 @@ nav {
     padding: 5px;
 }
 .logo {
-    font-size: 24px;
+    font-size: 36px;
     font-weight: bolder;
     color: rgb(255, 255, 255);
-    background-color: rgb(145, 67, 218);
+    background-color: rgb(119, 17, 215);
     text-decoration: none;
 }
 .nav-links {
@@ -38,15 +38,43 @@ nav {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
+    align-items: center;
     flex-direction: row;
     text-decoration: none;
 }
 .menu-item {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-weight: bold;
+    font-size: 24px;
+
+}
+.signup-container {
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    align-items: center;
+}
+.signup {
+    size: 200px;
+    display: flex;
+    color: black;
+    background-color: white;
+    font-weight: bolder;
+    font-size: 24px;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 12px;
+    padding: 4px;
+}
+.login {
+    color: white;
+    font-size: 16px;
 }
 
+.social-container {
+    display: flex;
+    flex-direction: row;
+}
 .insta-logo, .facebook-logo {
     width: 40px;
     height: auto;
